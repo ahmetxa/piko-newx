@@ -1,3 +1,62 @@
+## [0.1.0](https://github.com/ahmetxa/piko-newx/releases/tag/v0.1.0) (2026-11-06)
+
+### ✨ New Features
+* **Twitter - newx:** support every patch on root mount installs ([b9a2961](https://github.com/ahmetxa/piko/commit/b9a2961221ea699dd4e94c5d15d1d0e9b39fb310))
+
+### New Patches
+* **Twitter:** NewX: Remove ads
+* **Twitter:** NewX: Disable blur effects
+* **Twitter:** NewX: Restore Twitter branding
+* **Twitter:** NewX: Browse tweet object
+* **Twitter:** NewX: Open canonical URLs
+* **Twitter:** NewX: Clone
+* **Twitter:** NewX: Crash logs
+* **Twitter:** NewX: Custom font
+* **Twitter:** NewX: Custom sharing domain
+* **Twitter:** NewX: Permanent share links
+* **Twitter:** NewX: Remove share tracking parameters
+* **Twitter:** NewX: Customize drawer items
+* **Twitter:** NewX: Theme
+* **Twitter:** NewX: Feature switch overrides
+* **Twitter:** NewX: Enable quality-of-life feature flags
+* **Twitter:** NewX: Customize inline actions
+* **Twitter:** NewX: Inline download button
+* **Twitter:** NewX: Redirect downloads to chosen folder
+* **Twitter:** NewX: Log HLS audio renditions
+* **Twitter:** NewX: Customize media menu items
+* **Twitter:** NewX: Set default media tab
+* **Twitter:** NewX: Gallery profile Photos tab
+* **Twitter:** NewX: Customize navigation bar
+* **Twitter:** NewX: Hide post author actions
+* **Twitter:** NewX: Hide post reply bar
+* **Twitter:** NewX: Customize post menu items
+* **Twitter:** NewX: Set default profile post sorting
+* **Twitter:** NewX: Customize profile tabs
+* **Twitter:** NewX: Set default reply sorting
+* **Twitter:** NewX: Server error logging
+* **Twitter:** NewX: Disable video player scrolling
+* **Twitter:** NewX: Hide premium upsell
+* **Twitter:** NewX: Unlock color customization
+* **Twitter:** NewX: Unlock downloads
+* **Twitter:** NewX: Customize timeline tabs
+* **Twitter:** NewX: Disable automatic timeline refresh
+* **Twitter:** NewX: Filter For You by topic
+* **Twitter:** NewX: Hide AI-generated posts
+* **Twitter:** NewX: Hide Discover more
+* **Twitter:** NewX: Hide compose button
+* **Twitter:** NewX: Hide new posts pill
+* **Twitter:** NewX: Hide post dividers
+* **Twitter:** NewX: Hide Spaces bar
+* **Twitter:** NewX: Hide timeline tabs bar
+* **Twitter:** NewX: Hide who to follow
+* **Twitter:** NewX: Restore pinned home tab
+* **Twitter:** NewX: Restore timeline position
+* **Twitter:** NewX: Show poll results
+* **Twitter:** NewX: Show sensitive media
+* **Twitter:** NewX: Hide posts by verified account type
+* **Twitter:** NewX: Filter posts by keyword
+* **Twitter:** NewX: Translator
+
 ## [3.74.0](https://github.com/crimera/piko-newx/compare/v3.73.0...v3.74.0) (2026-11-05)
 
 ### 🐛 Bug Fixes
