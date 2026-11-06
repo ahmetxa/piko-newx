@@ -12,9 +12,9 @@ set -euo pipefail
 FORCE_PATCH="${FORCE_PATCH:-false}"
 CHANGELOG_APP_NAME="Twitter"
 CHANGELOG_APP_NAME_LOWER=$(printf '%s' "$CHANGELOG_APP_NAME" | tr '[:upper:]' '[:lower:]')
-PIKO_REPOSITORY="${PIKO_REPOSITORY:-https://github.com/crimera/piko.git}"
+PIKO_REPOSITORY="${PIKO_REPOSITORY:-https://github.com/ahmetxa/piko.git}"
 PIKO_BRANCH="${PIKO_BRANCH:-x-lite}"
-PIKO_REPO_URL="${PIKO_REPO_URL:-https://github.com/crimera/piko}"
+PIKO_REPO_URL="${PIKO_REPO_URL:-https://github.com/ahmetxa/piko}"
 PATCHES_BUNDLE_FILE="patches-bundle.json"
 PREVIOUS_TAG="${1:-$(git tag --merged HEAD --sort=-version:refname | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | head -n1 || echo '')}"
 

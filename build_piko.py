@@ -6,9 +6,10 @@ import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
-PIKO_REPO = "crimera/piko"
+# The fork carries the root mount support on top of crimera/piko x-lite.
+PIKO_REPO = os.environ.get("PIKO_REPO", "ahmetxa/piko")
 PIKO_REPOSITORY = f"https://github.com/{PIKO_REPO}.git"
-PIKO_BRANCH = "x-lite"
+PIKO_BRANCH = os.environ.get("PIKO_BRANCH", "x-lite")
 XLITE_CONSTANTS = (
     "patches/src/main/kotlin/app/crimera/patches/newx/utils/Constants.kt"
 )

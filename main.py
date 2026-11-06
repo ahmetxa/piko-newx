@@ -133,6 +133,7 @@ def write_patches_bundle(
     app_version: str,
     piko_build: PikoBuild,
     repo: str = REPO,
+    signed: bool = True,
 ) -> None:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")
     patch_version = validate_release_tag(release_tag)
@@ -146,6 +147,9 @@ def write_patches_bundle(
         "app_version": app_version,
         "piko_commit": piko_build.commit,
     }
+    if not signed:
+        # An unsigned release has no .asc asset to point at.
+        del metadata["signature_download_url"]
     Path(PATCHES_BUNDLE_FILE).write_text(
         json.dumps(metadata, indent=2) + "\n",
         encoding="utf-8",
@@ -259,7 +263,7 @@ def process(
         message,
         release_tag,
     )
-    write_patches_bundle(release_tag, app_version, piko_build)
+    write_patches_bundle(release_tag, app_version, piko_build, signed=signature is not None)
 
 
 def should_publish(
