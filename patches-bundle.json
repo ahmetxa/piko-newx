@@ -1,8 +1,8 @@
 {
-  "version": "v0.1.0",
-  "download_url": "https://github.com/ahmetxa/piko-newx/releases/download/v0.1.0/patches-0.1.0.mpp",
-  "created_at": "2026-11-06T18:40:29",
-  "description": "Piko x-lite patch bundle for Morphe (v0.1.0).",
+  "version": "v0.1.1",
+  "download_url": "https://github.com/ahmetxa/piko-newx/releases/download/v0.1.1/patches-0.1.1.mpp",
+  "created_at": "2026-11-07T09:05:08",
+  "description": "Piko x-lite patch bundle for Morphe (v0.1.1).",
   "app_version": "12.40.1-prod.01",
-  "piko_commit": "b9a2961221ea699dd4e94c5d15d1d0e9b39fb310"
+  "piko_commit": "96bd7c6b9fbe99dd7b54758bba824e6e21918b90"
 }

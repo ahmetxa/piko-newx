@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/ahmetxa/piko-newx/compare/v0.1.0...v0.1.1) (2026-11-07)
+
+### 🐛 Bug Fixes
+* **Twitter - newx:** hook compiled factory overrides without a scratch register ([96bd7c6](https://github.com/ahmetxa/piko/commit/96bd7c6b9fbe99dd7b54758bba824e6e21918b90))
+* **Twitter - newx:** hook the component factory on root mounts when R8 dropped its callbacks ([246349e](https://github.com/ahmetxa/piko/commit/246349e0e02fc4f7a745bb22ffa3dcf8311db2d9))
+
+### 🔧 Improvements
+* **Twitter - newx:** freeze mount factory hook contract ([18df9a6](https://github.com/ahmetxa/piko/commit/18df9a610706823f149778c1b2acd79118dc3a19))
+
 ## [0.1.0](https://github.com/ahmetxa/piko-newx/releases/tag/v0.1.0) (2026-11-06)
 
 ### ✨ New Features
