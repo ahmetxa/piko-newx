@@ -1,3 +1,8 @@
+## [0.2.0](https://github.com/ahmetxa/piko-newx/compare/v0.1.1...v0.2.0) (2026-11-07)
+
+### ✨ New Features
+* **Twitter - newx:** support 12.41.0-prod.01 ([86fb221](https://github.com/ahmetxa/piko/commit/86fb221bf9d901cf8d3f8d3dcd94fa498a9966fb))
+
 ## [0.1.1](https://github.com/ahmetxa/piko-newx/compare/v0.1.0...v0.1.1) (2026-11-07)
 
 ### 🐛 Bug Fixes
